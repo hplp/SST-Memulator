@@ -1,0 +1,1 @@
+cmd_/home/ersin/riffa/driver/linux/riffa.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/ersin/riffa/driver/linux/riffa.ko /home/ersin/riffa/driver/linux/riffa.o /home/ersin/riffa/driver/linux/riffa.mod.o ;  true

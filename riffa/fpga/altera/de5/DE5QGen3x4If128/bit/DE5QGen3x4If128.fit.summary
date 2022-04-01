@@ -1,0 +1,26 @@
+Fitter Status : Successful - Wed Feb  2 08:27:29 2022
+Quartus Prime Version : 18.0.0 Build 614 04/24/2018 SJ Standard Edition
+Revision Name : DE5QGen3x4If128
+Top-level Entity Name : DE5QGen3x4If128
+Family : Stratix V
+Device : 5SGXEA7N2F45C2
+Timing Models : Final
+Logic utilization (in ALMs) : 5,873 / 234,720 ( 3 % )
+Total registers : 11306
+Total pins : 28 / 1,064 ( 3 % )
+Total virtual pins : 0
+Total block memory bits : 697,720 / 52,428,800 ( 1 % )
+Total RAM Blocks : 56 / 2,560 ( 2 % )
+Total DSP Blocks : 0 / 256 ( 0 % )
+Total HSSI STD RX PCSs : 4 / 48 ( 8 % )
+Total HSSI 10G RX PCSs : 0 / 48 ( 0 % )
+Total HSSI GEN3 RX PCSs : 4 / 48 ( 8 % )
+Total HSSI PMA RX Deserializers : 4 / 48 ( 8 % )
+Total HSSI STD TX PCSs : 4 / 48 ( 8 % )
+Total HSSI 10G TX PCSs : 0 / 48 ( 0 % )
+Total HSSI GEN3 TX PCSs : 4 / 48 ( 8 % )
+Total HSSI PMA TX Serializers : 4 / 48 ( 8 % )
+Total HSSI PIPE GEN1_2s : 4 / 48 ( 8 % )
+Total HSSI GEN3s : 4 / 48 ( 8 % )
+Total PLLs : 6 / 92 ( 7 % )
+Total DLLs : 0 / 4 ( 0 % )

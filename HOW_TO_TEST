@@ -1,0 +1,32 @@
+
+
+
+You are going to need Ubuntu 16.04 for the driver to work properly and 
+I suggest using Quartus 18 for synthezing HDL for FPGAs. 
+
+Under /docs/riffa_documentation.pdf, you will find everything related to riffa
+including how to install the driver on the PC.
+
+You need to first install the driver and make sure the OS can see the FPGA with riffa
+core synthesized on it.
+
+The setup that I have is a DE5 Stratix V board that is attached to the PC via the 
+PCIe.
+
+
+I have test code under c_c++/linux/x86/sample_app called "trace_feed.c". The way we
+are compiling any c or c++ code with riffa driver is
+
+gcc code.c -o code.o -lriffa
+g++ code.cpp -o code.o -lriffa
+
+
+The test code "trace_feed.c" takes the trace information we created via gem5 + dramSim3 using
+the hopscotch benchmark and based on that info, feeds data into the FPGA to measure the total 
+travel time over PCIe to get an estimation of how much speedup we can achieve combining SST 
+simulator and Memulator (emulated memory)
+
+
+
+
+

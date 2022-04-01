@@ -1,0 +1,1 @@
+cmd_/home/ersin/riffa/driver/linux/riffa.o := ld -m elf_x86_64 -z max-page-size=0x200000   -r -o /home/ersin/riffa/driver/linux/riffa.o /home/ersin/riffa/driver/linux/riffa_driver.o /home/ersin/riffa/driver/linux/circ_queue.o 

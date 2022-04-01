@@ -1,0 +1,23 @@
+Analysis & Synthesis Status : Successful - Wed Feb  2 08:25:15 2022
+Quartus Prime Version : 18.0.0 Build 614 04/24/2018 SJ Standard Edition
+Revision Name : DE5QGen3x4If128
+Top-level Entity Name : DE5QGen3x4If128
+Family : Stratix V
+Logic utilization (in ALMs) : N/A
+Total registers : 11363
+Total pins : 19
+Total virtual pins : 0
+Total block memory bits : 700,570
+Total DSP Blocks : 0
+Total HSSI STD RX PCSs : 4
+Total HSSI 10G RX PCSs : 0
+Total HSSI GEN3 RX PCSs : 4
+Total HSSI PMA RX Deserializers : 4
+Total HSSI STD TX PCSs : 4
+Total HSSI 10G TX PCSs : 0
+Total HSSI GEN3 TX PCSs : 4
+Total HSSI PMA TX Serializers : 4
+Total HSSI PIPE GEN1_2s : 4
+Total HSSI GEN3s : 4
+Total PLLs : 6
+Total DLLs : 0

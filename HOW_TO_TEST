@@ -14,12 +14,14 @@ The setup that I have is a DE5 Stratix V board that is attached to the PC via th
 PCIe.
 
 
-I have test code under c_c++/linux/x86/sample_app called "trace_feed.c". The way we
+I have test code under riffa/c_c++/linux/x86/sample_app called "trace_feed.c". The way we
 are compiling any c or c++ code with riffa driver is
 
 gcc code.c -o code.o -lriffa
 g++ code.cpp -o code.o -lriffa
 
+The data files for memory trace testing cannot fit into this repo. It will be in provided in ".tar"
+format.
 
 The test code "trace_feed.c" takes the trace information we created via gem5 + dramSim3 using
 the hopscotch benchmark and based on that info, feeds data into the FPGA to measure the total 
